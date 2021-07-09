@@ -15,3 +15,6 @@ The goal is to create a masks detection system, able to recognize face masks bot
 - ONNX
 - MobilenetV1-SSD
 - Python
+
+# Data
+The dataset used for training the model is available [here](https://www.kaggle.com/andrewmvd/face-mask-detection/metadata).
