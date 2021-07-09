@@ -10,8 +10,8 @@ The goal is to create a masks detection system, able to recognize face masks bot
 
 # Technologies
 
-PyTorch
-TensorRT
-ONNX
-MobilenetV1-SSD
-Python
+- PyTorch
+- TensorRT
+- ONNX
+- MobilenetV1-SSD
+- Python
