@@ -1,20 +1,9 @@
-# Face-Mask-Detection
-Face Mask Detection system using PyTorch and TensorRT. It can be used to detect face masks both in images and in real-time video.
+# SSD-based Object Detection in PyTorch
 
-# Demo
+This repo implements [SSD (Single Shot MultiBox Detector)](https://arxiv.org/abs/1512.02325) in PyTorch for object detection, using MobileNet backbones.  It also has out-of-box support for retraining on Google Open Images dataset.  
 
-![output (2)](https://user-images.githubusercontent.com/16786052/125057947-322d3480-e0c3-11eb-9088-3598ffe24cd4.gif)
-# Goal
+> For documentation, please refer to Object Detection portion of the **[Hello AI World](https://github.com/dusty-nv/jetson-inference/tree/dev#training)** tutorial:
+> [Re-training SSD-Mobilenet](https://github.com/dusty-nv/jetson-inference/blob/dev/docs/pytorch-ssd.md)
 
-The goal is to create a masks detection system, able to recognize face masks in images, videos and in real-time camera, drawing bounding box around faces. In order to do so, I  used the Transfer Learning approach, particulalty I retrainded MobilenetV1 using the PyTorch framework.
+Thanks to @qfgaohao for the upstream implementation from:  [https://github.com/qfgaohao/pytorch-ssd](https://github.com/qfgaohao/pytorch-ssd)
 
-# Technologies
-
-- PyTorch
-- TensorRT
-- ONNX
-- MobilenetV1-SSD
-- Python
-
-# Data
-The dataset used for training the model is available [here](https://www.kaggle.com/andrewmvd/face-mask-detection/metadata).
