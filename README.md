@@ -7,9 +7,11 @@ This repo implements [SSD (Single Shot MultiBox Detector)](https://arxiv.org/abs
 
 
 # Demo
+
 ![output(1) (1)](https://user-images.githubusercontent.com/16786052/125166557-9b8d7000-e1b5-11eb-9580-5be89f3d21bd.gif)
 
 # Technologies
+
 - PyTorch
 - SSD Mobilenet
 - TensorRT
@@ -17,8 +19,9 @@ This repo implements [SSD (Single Shot MultiBox Detector)](https://arxiv.org/abs
 
 # Usage
 
-[Follow the steps provided here](https://www.hackster.io/shahizat005/face-mask-detection-system-using-ai-and-nvidia-jetson-board-3cfae7)
+Follow the steps provided [here.](https://www.hackster.io/shahizat005/face-mask-detection-system-using-ai-and-nvidia-jetson-board-3cfae7)
 
 
 # Data
+
 The dataset used for training the model is available [here](https://www.kaggle.com/andrewmvd/face-mask-detection/metadata).
